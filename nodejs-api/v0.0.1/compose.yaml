@@ -1,0 +1,5 @@
+services:
+  nodejs-api:
+    image: YOUR_DOCKERHUB_USERNAME/nodejs-api:uat-v0.0.1
+    ports:
+      - "3000:3000"

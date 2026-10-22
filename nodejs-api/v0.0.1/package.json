@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-api",
+  "version": "0.0.1",
+  "description": "Basic Express API for the INET Docker workshop",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

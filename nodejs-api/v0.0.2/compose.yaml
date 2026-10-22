@@ -1,5 +1,5 @@
 services:
   nodejs-api:
-    image: YOUR_DOCKERHUB_USERNAME/nodejs-api:uat-v0.0.2
+    image: mean67/nodejs-api:uat-v0.0.2
     ports:
       - "3000:3000"

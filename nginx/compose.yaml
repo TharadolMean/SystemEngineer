@@ -1,5 +1,5 @@
 services:
   nginx:
-    image: YOUR_DOCKERHUB_USERNAME/nginx:uat-v0.0.1
+    image: mean67/nginx:uat-v0.0.1
     ports:
       - "8080:80"

@@ -1,0 +1,15 @@
+services:
+  nodejs-api-v1:
+    image: mean67/nodejs-api:uat-v0.0.1
+    ports:
+      - "3001:3000"
+
+  nodejs-api-v2:
+    image: mean67/nodejs-api:uat-v0.0.2
+    ports:
+      - "3002:3000"
+
+  web-nginx:
+    image: mean67/nginx:uat-v0.0.1
+    ports:
+      - "8080:80"
